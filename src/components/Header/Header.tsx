@@ -1,6 +1,7 @@
 "use client"
 
-import { CiMenuFries } from "react-icons/ci"
+import { ImMenu } from "react-icons/im"
+import { BsMenuUp } from "react-icons/bs";
 import { BsTelephone } from "react-icons/bs"
 import Link from "next/link"
 import { Navbar } from "../Navbar"
@@ -15,7 +16,7 @@ export function Header() {
                 <Link href="/">
                     <h1>Bienes Raices OSC</h1>
                 </Link>
-                <CiMenuFries className="block text-2xl md:hidden" onClick={() => setOpenMobileMenu(!openMobileMenu)} />
+                <BsMenuUp className="block text-2xl md:hidden" onClick={() => setOpenMobileMenu(!openMobileMenu)} />
                 <Navbar openMobileMenu={openMobileMenu} />
 
                 <div className="flex items-center gap-2 md:gap-5">
