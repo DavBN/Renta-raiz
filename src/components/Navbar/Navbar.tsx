@@ -37,10 +37,18 @@ export function Navbar(props: NavbarProps) {
                     <div className="items center hidden gap-5 md:flex">
                         {dataHeader.map(({ id, name, link }) => (
                             <Link key={id} href={link} className="hover:text-orange-500 hover:border-b[1px] hover:border-orange-400">
+                                
 
                             </Link>
                         ))}
+                            <Link href="/" className="px-3 py-2">Home</Link>
+                            <Link href="/" className="px-3 py-2">Sobre nosotros</Link>
+                            <Link href="/" className="px-3 py-2">Servicios</Link>
+                            <Link href="/" className="px-3 py-2">Localización</Link>
+                            <Link href="/" className="px-3 py-2">Propiedades</Link>
                         <Link href="/login" className="px-3 py-2 text-white rounded-lg bg-orange-500 hover:bg-black">Login</Link>
+                    
+                    
                     </div>
                 </motion.nav>
 
@@ -48,6 +56,7 @@ export function Navbar(props: NavbarProps) {
                 <div className={`${openMobileMenu ? 'absolute z[1] left-0 top-20 bg-white r-0 w-full px-4 py-4' : 'hidden'} gap-5 md:flex`}>
                     {dataHeader.map(({ id, name, link }) => (
                         <Link key={id} href={link} className="block hover:text-orange-500 hover:border-b-[1px]">{name}</Link>
+                        
                     ))}
                 </div>
             )}
