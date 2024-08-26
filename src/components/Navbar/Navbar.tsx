@@ -40,7 +40,7 @@ export function Navbar(props: NavbarProps) {
 
                             </Link>
                         ))}
-                        <Link href="/login" className="px-3 py-2 text-white rounded-lg bg-orange-500 hover:bg-black"></Link>
+                        <Link href="/login" className="px-3 py-2 text-white rounded-lg bg-orange-500 hover:bg-black">Login</Link>
                     </div>
                 </motion.nav>
 
