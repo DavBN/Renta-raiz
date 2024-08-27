@@ -42,10 +42,10 @@ export function Navbar(props: NavbarProps) {
                             </Link>
                         ))}
                             <Link href="/" className="px-3 py-2">Home</Link>
-                            <Link href="/" className="px-3 py-2">Sobre nosotros</Link>
-                            <Link href="/" className="px-3 py-2">Servicios</Link>
-                            <Link href="/" className="px-3 py-2">Localización</Link>
-                            <Link href="/" className="px-3 py-2">Propiedades</Link>
+                            <Link href="#about" className="px-3 py-2">Sobre nosotros</Link>
+                            <Link href="#services" className="px-3 py-2">Servicios</Link>
+                            <Link href="#location" className="px-3 py-2">Localización</Link>
+                            <Link href="#propierties" className="px-3 py-2">Propiedades</Link>
                         <Link href="/login" className="px-3 py-2 text-white rounded-lg bg-orange-500 hover:bg-black">Login</Link>
                     
                     
