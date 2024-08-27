@@ -26,8 +26,7 @@ export function Location() {
             <h4 className="text-center text-orange-400" id="location">Localización</h4>
             <h2 className="max-w-2xl mx-auto my-4 mb-8 text-3xl font-semibold text-center">Disponibles en toda Colombia, ¡Here we go!</h2>
             <MapContainer center={coordinatePoint} zoom={6} scrollWheelZoom={false} className="h-[700px]">
-                <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png">
-                </TileLayer>
+                <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png"/>
                 <MarkerHouse selectMarker={centerMarker} />
             </MapContainer>
         </Transition>
