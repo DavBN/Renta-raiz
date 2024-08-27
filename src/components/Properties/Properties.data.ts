@@ -29,7 +29,7 @@ export const dataProperties = [
     price: 150000000,
     bedrooms: 5,
     bathroom: 2,
-    image: "propertie3.jpg",
+    image: "propertie3.jpeg",
     star: 5,
     meters: 90,
     description:
@@ -185,7 +185,7 @@ export const dataProperties = [
     price: 280000000,
     bedrooms: 3,
     bathroom: 1,
-    image: "propertie16.jpg",
+    image: "propertie16.jpeg",
     star: 4,
     meters: 290,
     description:
